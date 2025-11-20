@@ -1,0 +1,52 @@
+html.dark {
+  --slidev-code-background: #010101;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-serif;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+.shiki {
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+}
+
+.theme-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+}
+
+.theme-bg,
+.theme-bg-polygon {
+  transition: all 2.5s ease;
+}
+
+.theme-bg-polygon {
+  clip-path: circle(75%);
+  aspect-ratio: 16 / 9;
+  position: absolute;
+  inset: 0;
+}
+
+.light .theme-bg-polygon {
+  opacity: 1 !important;
+}

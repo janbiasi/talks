@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@janbiasi/talks",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preview": "slidev-workspace preview",
+    "build": "slidev-workspace build",
+    "prettier": "prettier -w \"./slides/**/*.{js,ts,md}\"",
+    "generate-preview-cover": "pnpm -r --filter \"@janbiasi/talk-*\" exec slidev export --range 1 --format png --output public/cover",
+    "export-pdf": "pnpm -r --filter \"@janbiasi/talk-*\" exec slidev export --format pdf --output export/pdf",
+    "export-md": "pnpm -r --filter \"@janbiasi/talk-*\" exec slidev export --format md --output export/md"
+  },
+  "keywords": [],
+  "author": "Jan Biasi (https://github.com/janbiasi)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@slidev/client": "^52.5.0",
+    "slidev-workspace": "0.7.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "catalog:",
+    "@slidev/client": "catalog:",
+    "playwright-chromium": "1.56.1",
+    "prettier": "catalog:",
+    "prettier-plugin-slidev": "catalog:",
+    "slidev-addon-fancy-arrow": "catalog:",
+    "vue": "catalog:"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-darwin-arm64": "*"
+  }
+}

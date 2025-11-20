@@ -1,0 +1,25 @@
+{
+  "name": "@janbiasi/talk-2025-11-26",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "devDependencies": {
+    "@janbiasi/slidev-theme": "workspace:",
+    "@nolebase/ui-asciinema": "catalog:",
+    "@slidev/cli": "catalog:",
+    "@slidev/client": "catalog:",
+    "@slidev/theme-apple-basic": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "@slidev/types": "catalog:",
+    "asciinema-player": "catalog:",
+    "prettier": "catalog:",
+    "prettier-plugin-slidev": "catalog:",
+    "seedrandom": "catalog:",
+    "slidev-addon-fancy-arrow": "catalog:",
+    "vue": "catalog:"
+  }
+}

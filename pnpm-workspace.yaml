@@ -1,0 +1,22 @@
+packages:
+  - theme
+  - slides/*
+
+# onlyBuiltDependencies:
+#   - esbuild
+#   - playwright-chromium
+#   - vue-demi
+
+catalog:
+  "@nolebase/ui-asciinema": "^2.18.2"
+  "@slidev/cli": "^52.9.1"
+  "@slidev/client": "^52.9.1"
+  "@slidev/theme-apple-basic": "latest"
+  "@slidev/theme-default": "latest"
+  "@slidev/types": "^52.9.1"
+  "asciinema-player": "^3.12.1"
+  "prettier": "3.6.2"
+  "prettier-plugin-slidev": "1.0.5"
+  "seedrandom": "3.0.5"
+  "slidev-addon-fancy-arrow": "0.13.13"
+  "vue": "^3.5.24"
