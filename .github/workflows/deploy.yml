@@ -28,6 +28,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: "pnpm"
+      - run: pnpm install
       - run: pnpm build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
