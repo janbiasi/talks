@@ -19,5 +19,15 @@ Sleep 1s
 Down
 Sleep 1s
 Right
+Sleep 2s
+
+Left 
+Sleep 500ms
+Left 
+Sleep 500ms
+
+Type "f"
+Sleep 1s
+Type "readme"
 
 Sleep 5s
