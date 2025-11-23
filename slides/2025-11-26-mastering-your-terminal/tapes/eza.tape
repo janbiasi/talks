@@ -1,12 +1,13 @@
 Output ../public/vhs/eza.gif
 
 Source setup.tape
-
+Type "z dot"
+Enter
 Type "unalias ls"
 Sleep 500ms
 Enter
 Type "ls -la"
-Sleep 500ms
+Sleep 1s
 Enter
 
 Sleep 2s

@@ -14,7 +14,7 @@ Type "z -"
 Sleep 3s
 Enter
 
-Type "zi app"
+Type "zi seekme"
 Enter
 
 Sleep 5s

@@ -112,7 +112,7 @@ layout: two-cols
 
 View important information (i.E. git status, runtime stats, ...) at a glance.
 
-Bonus: it also looks just good! My personal favorite is [starship](https://starship.rs/) _(written in rust by the way)_.
+Bonus: it also looks just good! My personal favorite is [starship](https://starship.rs/) _(written in rust btw)_.
 
 Considerable alternatives:
 
@@ -322,6 +322,12 @@ flowchart TD
 layout: fact
 ---
 
+# Workflow Demo
+
+---
+layout: fact
+---
+
 # Portability
 
 ---
@@ -334,6 +340,7 @@ layout: two-cols
 
 ## Cases
 
+- More than 1 computer
 - Computer dies
 - Device gets stolen
 - OS update bricks computer
@@ -379,11 +386,16 @@ Nearly all terminal tool configurations live under `~/.config`, except:
 - GUI tools on macOS under `~/Library/Application Support/<appname>/`
 - GUI tools on Windows under `%APPDATA%\<appname>\`
 
-Shell configurations depend on which shell you are using;
+Shell configurations depend on which shell you are using:
 
 - Bash in `~/.bashrc` and `~/.bashprofile`
 - ZSH in `~/.zshrc` and `~/.zprofile`
 - Fish in `~/.config/fish/conf`
+
+Useful resources:
+
+- [XDG base directory specification](https://specifications.freedesktop.org/basedir/latest)
+- [macOS service configurations](https://support.apple.com/de-ch/guide/deployment/depdac2c8d89/web)
 
 ---
 
@@ -450,8 +462,8 @@ $HOME/
 - Dig through your configurations
 - Cleanup obsolete content
 - Inject env secrets via a PW manager (like 1Password's `op` CLI)
-- Dump your installed software (like `brew bundle dump`)
-- Add some OS configuration scripts, don't do it in the UI
+- Dump your installed software (like `brew bundle dump` or `pacman -Qqe > pkgs.txt`)
+- Add some OS configuration scripts - don't do it in the UI
 - Make it convenient, use a tool like `make` to orchestrate
 
 ---
@@ -470,6 +482,7 @@ layout: fact
 - essentials: `jq`, `zoxide`, `yazi`
 - use `tmux` - learn once, use everywhere
 - backup your dotfiles, use `stow` for symlinking
+- orchestrate management with a tool like `make`
 - record your terminal for talks with [<kbd>vhs</kbd>](https://github.com/charmbracelet/vhs)
 
 <div class="h-24" />
@@ -484,3 +497,7 @@ layout: fact
 ---
 
 # Thanks!
+
+<p class="opacity-50">
+  Questions?
+</p>
