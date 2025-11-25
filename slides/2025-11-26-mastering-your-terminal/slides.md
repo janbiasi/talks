@@ -227,6 +227,18 @@ https://github.com/ajeetdsouza/zoxide
 
 ---
 
+# Essentials - jq
+
+Command line JSON processor
+
+<v-click>
+  <img class="rounded w-150" src="/vhs/jq.gif" alt="jq example" />
+</v-click>
+
+https://github.com/jqlang/jq
+
+---
+
 # Essentials - yazi
 
 - File manager in your terminal
