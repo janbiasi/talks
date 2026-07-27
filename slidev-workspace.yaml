@@ -1,5 +1,12 @@
 hero:
-  title: Talks
+  title: All Slides
   description: Browse all available slide decks and use the search function to quickly find what you need
 
 baseUrl: /talks
+
+sidebar:
+  title: "Talks"
+  githubUrl: "https://github.com/janbiasi/talks"
+
+exclude:
+  - "drafts"

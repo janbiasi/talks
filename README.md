@@ -8,3 +8,12 @@ Entdecke moderne terminal tools, die deine alltägliche Arbeit auf dem CLI besch
 
 [Webnesday St.Gallen](https://www.meetup.com/webnesday/events/311828640/) /
 [Slides](https://janbiasi.github.io/talks/2025-11-26-mastering-your-terminal/)
+
+### 2026-08-xx Reproducible Development Environments
+
+<img src="./slides/2026-08-26-reproducible-development-environments/public/cover.png" width="300" />
+
+Warum reproduzierbare Entwicklungsumgebungen mehr sind als ein Docker-Container und Tool-Versionen.
+
+[Webnesday St.Gallen](https://www.meetup.com/webnesday/events/311828640/) /
+[Slides](https://janbiasi.github.io/talks/2026-08-26-reproducible-development-environments/)

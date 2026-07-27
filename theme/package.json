@@ -20,8 +20,7 @@
     "@slidev/types": "catalog:",
     "seedrandom": "catalog:",
     "prism-theme-vars": "^0.2.5",
-    "codemirror-theme-vars": "^0.1.2",
-    "asciinema-player": "^3.12.1"
+    "codemirror-theme-vars": "^0.1.2"
   },
   "devDependencies": {
     "@slidev/cli": "catalog:"

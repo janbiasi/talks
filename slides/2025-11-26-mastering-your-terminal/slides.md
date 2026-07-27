@@ -4,7 +4,8 @@ css: unocss
 colorSchema: dark
 transition: fade-out
 title: "Mastering Your Terminal: Efficient Tools & Portable Setups"
-description: "Presentation for: Webnesday: LLM SEO | Mastering your Terminal"
+description: "Presentation for Webnesday: LLM SEO | Mastering your Terminal"
+info: "Presentation for Webnesday, Fall 2025"
 exportFilename: 2025-11-26-mastering-your-terminal
 lineNumbers: false
 background: /cover.png
@@ -133,7 +134,7 @@ layout: fact
 A cat(1) clone with syntax highlighting and Git integration.
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/bat.gif" alt="bat example" />
+  <img class="rounded w-150" src="./public/vhs/bat.gif" alt="bat example" />
 </v-click>
 
 https://github.com/sharkdp/bat
@@ -145,7 +146,7 @@ https://github.com/sharkdp/bat
 Modern alternative to `ls`, including git status, hyperlinks, relative dates amm.
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/eza.gif" alt="eza example" />
+  <img class="rounded w-150" src="./public/vhs/eza.gif" alt="eza example" />
 </v-click>
 
 https://github.com/eza-community/eza
@@ -158,7 +159,7 @@ https://github.com/eza-community/eza
 - Best in combination with fzf
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/ripgrep.gif" alt="zoxide example" />
+  <img class="rounded w-150" src="./public/vhs/ripgrep.gif" alt="zoxide example" />
 </v-click>
 
 https://github.com/BurntSushi/ripgrep
@@ -171,7 +172,7 @@ Resource monitor that shows usage and stats for processor, memory, disks, networ
 Easy on the eyes, clear layout and great DX compared to i.E. top/htop/...
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/btop.gif" alt="btop example" />
+  <img class="rounded w-150" src="./public/vhs/btop.gif" alt="btop example" />
 </v-click>
 
 https://github.com/aristocratos/btop
@@ -186,7 +187,7 @@ You may also deploy your own history sync server via docker.
 You should probably use atuin if you're hitting the <kbd>&#8593;</kbd> key a lot 😅
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/atuin.gif" alt="atuin example" />
+  <img class="rounded w-150" src="./public/vhs/atuin.gif" alt="atuin example" />
 </v-click>
 
 https://atuin.sh
@@ -206,7 +207,7 @@ layout: fact
 - barebone for a lot of other tools
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/fzf.gif" alt="fzf example" />
+  <img class="rounded w-150" src="./public/vhs/fzf.gif" alt="fzf example" />
 </v-click>
 
 https://github.com/junegunn/fzf
@@ -220,7 +221,7 @@ https://github.com/junegunn/fzf
 - Remembers where you were (used for priorization)
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/zoxide.gif" alt="zoxide example" />
+  <img class="rounded w-150" src="./public/vhs/zoxide.gif" alt="zoxide example" />
 </v-click>
 
 https://github.com/ajeetdsouza/zoxide
@@ -232,7 +233,7 @@ https://github.com/ajeetdsouza/zoxide
 Command line JSON processor
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/jq.gif" alt="jq example" />
+  <img class="rounded w-150" src="./public/vhs/jq.gif" alt="jq example" />
 </v-click>
 
 https://github.com/jqlang/jq
@@ -246,7 +247,7 @@ https://github.com/jqlang/jq
 - Integration with ripgrep, fd, fzf and zoxide
 
 <v-click>
-  <img class="rounded w-150" src="/vhs/yazi.gif" alt="yazi example" />
+  <img class="rounded w-150" src="./public/vhs/yazi.gif" alt="yazi example" />
 </v-click>
 
 https://github.com/sxyazi/yazi
@@ -295,7 +296,7 @@ https://github.com/tmux/tmux
 
 # Terminal Workflow - tmux example
 
-<img class="rounded w-150" src="/vhs/tmux.gif" alt="tmux example" />
+<img class="rounded w-150" src="./public/vhs/tmux.gif" alt="tmux example" />
 
 https://github.com/tmux/tmux
 
@@ -307,7 +308,7 @@ https://github.com/tmux/tmux
 - Raycast companion extension
 - Uses zoxide for most recent sessions
 
-<img class="rounded w-150" src="/vhs/sesh.gif" alt="sesh example" />
+<img class="rounded w-150" src="./public/vhs/sesh.gif" alt="sesh example" />
 
 https://github.com/joshmedeski/sesh
 

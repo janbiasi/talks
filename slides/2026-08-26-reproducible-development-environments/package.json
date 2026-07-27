@@ -5,7 +5,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "export-cover": "slidev export --range 1 --format png --output public/cover"
   },
   "devDependencies": {
     "@janbiasi/slidev-theme": "workspace:",
