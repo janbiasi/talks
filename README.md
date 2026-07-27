@@ -6,7 +6,7 @@
 
 Entdecke moderne terminal tools, die deine alltägliche Arbeit auf dem CLI beschleunigen - und dabei echt cool aussehen (ich schaue dich an, ls). Im zweiten Teil zeige ich euch, wie euer personalisiertes Setup portabel wird. Das Ziel: Jeden neuen Rechner in Minuten statt Stunden 100% einsatzbereit!
 
-[Webnesday St.Gallen](https://www.meetup.com/webnesday/events/311828640/) /
+[Webnesday St.Gallen](https://www.meetup.com/webnesday/) /
 [Slides](https://janbiasi.github.io/talks/2025-11-26-mastering-your-terminal/)
 
 ### 2026-08-xx Reproducible Development Environments
