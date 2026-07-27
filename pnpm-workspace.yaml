@@ -9,13 +9,13 @@ allowBuilds:
 
 catalog:
   "@nolebase/ui-asciinema": "^2.18.2"
-  "@slidev/cli": "^52.16.0"
-  "@slidev/client": "^52.16.0"
+  "@slidev/cli": "^52.18.0"
+  "@slidev/client": "^52.18.0"
   "@slidev/theme-apple-basic": "latest"
   "@slidev/theme-default": "latest"
-  "@slidev/types": "^52.16.0"
+  "@slidev/types": "^52.18.0"
   "prettier": "3.6.2"
   "prettier-plugin-slidev": "1.0.5"
   "seedrandom": "3.0.5"
   "slidev-addon-fancy-arrow": "0.13.13"
-  "vue": "^3.5.35"
+  "vue": "^3.5.40"
