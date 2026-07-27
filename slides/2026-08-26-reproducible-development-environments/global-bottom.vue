@@ -41,7 +41,7 @@ const seed = computed<string>(() =>
     ? Date.now().toString()
     : formatter.value.glowSeed || "default",
 );
-const theme = computed(() => (formatter.value.theme || "dark") as "light" | "dark");
+const theme = "dark";
 const overflow = 0.3;
 const disturb = 0.3;
 const disturbChance = 0.3;
@@ -164,29 +164,29 @@ const poly3 = usePloy(3);
     >
       <template v-if="theme === 'light'">
         <div
-          class="clip bg-gradient-to-r from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-r from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly1})`, opacity: opacity }"
         />
         <div
-          class="clip bg-gradient-to-l from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-l from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly2})`, opacity: opacity }"
         />
         <div
-          class="clip bg-gradient-to-t from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-t from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly3})`, opacity: 0.2 }"
         />
       </template>
       <template v-else>
         <div
-          class="clip bg-gradient-to-r from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-r from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly1})`, opacity: opacity }"
         />
         <div
-          class="clip bg-gradient-to-l from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-l from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly2})`, opacity: opacity }"
         />
         <div
-          class="clip bg-gradient-to-t from-[#5f57b2] to-[#623b72]"
+          class="clip bg-gradient-to-t from-[#7EBAE4] to-[#5277C3]"
           :style="{ 'clip-path': `polygon(${poly3})`, opacity: 0.2 }"
         />
       </template>

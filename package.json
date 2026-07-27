@@ -15,15 +15,15 @@
   "keywords": [],
   "author": "Jan Biasi (https://github.com/janbiasi)",
   "license": "MIT",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@11.5.1",
   "dependencies": {
-    "@slidev/client": "^52.5.0",
-    "slidev-workspace": "0.7.0"
+    "@slidev/client": "catalog:",
+    "slidev-workspace": "0.9.3"
   },
   "devDependencies": {
     "@slidev/cli": "catalog:",
     "@slidev/client": "catalog:",
-    "playwright-chromium": "1.56.1",
+    "playwright-chromium": "1.62.0",
     "prettier": "catalog:",
     "prettier-plugin-slidev": "catalog:",
     "slidev-addon-fancy-arrow": "catalog:",
