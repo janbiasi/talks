@@ -113,7 +113,7 @@ importers:
         specifier: 'catalog:'
         version: 3.5.40(typescript@6.0.3)
 
-  slides/2026-08-26-reproducible-development-environments:
+  slides/2026-08-05-reproducible-development-environments:
     devDependencies:
       '@janbiasi/slidev-theme':
         specifier: 'workspace:'

@@ -6,7 +6,7 @@ transition: fade-out
 title: "Reproducible Development Environments"
 description: "Presentation for Webnesday: Reproducible Development Environments"
 info: "Presentation for Webnesday, Fall 2026"
-exportFilename: 2026-08-26-reproducible-development-environments
+exportFilename: 2026-08-05-reproducible-development-environments
 lineNumbers: false
 background: /cover.png
 drawings:
@@ -23,7 +23,7 @@ hideInToc: true
 category: "Terminal"
 seoMeta:
   title: "Reproducible Development Environments"
-  description: "Webnesday: xxx"
+  description: "Webnesday: 08.05.2026"
 themeConfig:
   primary: "#6da6ad"
 ---
