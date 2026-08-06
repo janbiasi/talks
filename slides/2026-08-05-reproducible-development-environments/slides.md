@@ -448,21 +448,34 @@ Manage secrets in reproducible environments.
 - Define secrets schema in code
 - Inject into devenv/nix environments
 - Different secrets per environment
+- Runtime rotation possible via SDK
 - Never commit actual secrets
 - Variable backends (i.E. vault, infisicial, 1password amm.)
-- Mise launched it's own tool [fnox](https://github.com/jdx/fnox) recently (not as complete and agnostic)
+- Mise launched it's own tool [fnox](https://github.com/jdx/fnox) recently
 
 ::right::
 
 <span class="block mt-11" />
 
-```yaml
-# secretspec.yaml
-secrets:
-  DATABASE_URL:
-    description: "Postgres connection"
-  REDIS_URL:
-    description: "Redis connection"
+```toml
+# secretspec.toml
+[project]
+name = "my-project"
+revision = "1.0"
+
+[profiles.default]
+API_TOKEN = {
+    description = "Internal API token",
+    required = true
+}
+
+[profiles.development]
+API_TOKEN = {
+    description = "Development API token",
+    type = "password",
+    generate = { length = 32 },
+    providers = ["onepassword://Development"]
+}
 ```
 
 ---
